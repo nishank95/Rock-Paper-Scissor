@@ -32,7 +32,7 @@ header > h1{
 .score-board{
     font-size: 46px;
     width: 200px;
-    margin:20px auto;
+    margin:45px auto;
     text-align: center;
     border:3px solid white;
     border-radius: 4px;
@@ -64,13 +64,29 @@ header > h1{
     border-radius: 4px;
 }
 
-.result{
-    font-size: 40px;
+.round-message {
+    font-size: 35px;
     color: white;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
-.result > p{
+.round-message > p {
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    }
+
+.result {
+    font-size: 25px;
+    color: white;
+    border:3px solid white;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin:45px auto;
+}
+
+.result > p {
     text-align: center;
     font-family: Asap, sans-serif;
     font-weight: bold;
@@ -94,8 +110,8 @@ header > h1{
 
 .choice>img:hover{
     cursor: pointer;
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+    -webkit-transform: scale(2,2);
+    transform: scale(0.7,0.7);
 }
 
 .action-message{
@@ -105,4 +121,8 @@ header > h1{
     font-family: Asap, sans-serif;
     font-weight: bold;
     margin-top: 20px; 
+}
+
+#user-score, #comp-score{
+    padding: 5px;
 }
